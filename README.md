@@ -1,16 +1,45 @@
-# React + Vite
+# DevFlow — Developer Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Developer Productivity Dashboard built with React and Vite.
 
-Currently, two official plugins are available:
+DevFlow helps developers manage projects, track tasks, monitor progress, and maintain a productive workflow through a clean dashboard interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Responsive dashboard layout
+- Sidebar navigation
+- Developer profile section
+- Productivity statistics
+- Active project cards
+- Project progress indicators
+- Recent task management
+- Task search
+- Task status filters
+- Interactive task status updates
+- Loading state
+- Empty state
+- Error state
+- Responsive mobile navigation
+- Clean and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Lucide React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+
+public/
+├── favicon.svg
+└── icons.svg
